@@ -11,7 +11,7 @@ export const Navbar: React.FC = () => {
             <div className="flex-shrink-0 flex items-center gap-3">
               {/* הלוגו החדש */}
              <img 
-  src="/logo.png"
+ src="/btl02/logo.png"
   alt="לוגו ביטוח לאומי"
   className="h-12 w-auto object-contain"
 />
