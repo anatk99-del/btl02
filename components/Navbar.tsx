@@ -11,10 +11,11 @@ export const Navbar: React.FC = () => {
             <div className="flex-shrink-0 flex items-center gap-3">
               {/* הלוגו החדש */}
               <img 
-                src="https://www.hahorim.com/wp-content/uploads/2020/01/%D7%91%D7%99%D7%98%D7%95%D7%97-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%9C%D7%95%D7%92%D7%95.png" 
-                alt="לוגו ביטוח לאומי" 
-                className="h-12 w-auto object-contain"
-              />
+  src="/btl02/logo.png"
+  alt="לוגו ביטוח לאומי"
+  className="h-12 w-auto object-contain"
+/>
+
               
               <div className="hidden md:block border-r border-gray-300 pr-3 mr-1">
                 <span className="block text-lg font-bold text-[#005A8D] leading-none">ביטוח לאומי</span>
