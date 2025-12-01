@@ -10,11 +10,12 @@ export const Navbar: React.FC = () => {
             {/* Logo Section */}
             <div className="flex-shrink-0 flex items-center gap-3">
               {/* הלוגו החדש */}
-              <img 
-  src="/btl02/logo.png"
+             <img 
+  src="/logo.png"
   alt="לוגו ביטוח לאומי"
   className="h-12 w-auto object-contain"
 />
+
 
               
               <div className="hidden md:block border-r border-gray-300 pr-3 mr-1">
