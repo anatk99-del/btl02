@@ -306,6 +306,40 @@ export const RewardsPage: React.FC<RewardsPageProps> = ({ isOpen, onClose, activ
                         נכים המוכרים כסיעודיים (100% נכות מיוחדת) או עיוורים, זכאים למימון שהות עבור מלווה.
                       </p>
                    </div>
+
+                   {/* New Section: Coordination & Refunds */}
+                   <div className="mt-6 pt-5 border-t border-gray-100 space-y-4">
+                       <div>
+                           <h4 className="font-bold text-[#005A8D] text-sm mb-2">איך מתאמים טיפולים, לינה ושהייה?</h4>
+                           <p className="text-sm text-gray-600 mb-2">
+                               לאחר קבלת ההודעה על זכאותך לטיפול בחמי מרפא, תוכל להזמין טיפולים ולתאם לינה דרך חברת <strong>"השטיח המעופף"</strong> בערוצים הבאים:
+                           </p>
+                           <ul className="text-sm text-gray-600 space-y-1 bg-gray-50 p-3 rounded border border-gray-100">
+                               <li><strong>בטלפון:</strong> 03-5130250 או 03-5139966</li>
+                               <li><strong>שעות פעילות:</strong> ימים א'-ה', בין השעות 9:00 עד 16:00.</li>
+                               <li className="text-xs text-gray-500 mt-2 pt-2 border-t border-gray-200">
+                                   * ניתן לתאם טיפולים ולינה לזמן שנוח לך, על בסיס מקום פנוי במלון המבוקש.
+                               </li>
+                           </ul>
+                       </div>
+
+                       <div>
+                           <h4 className="font-bold text-[#005A8D] text-sm mb-2">החזרים עבור נסיעות ואובדן ימי עבודה</h4>
+                           <p className="text-sm text-gray-600 mb-3">
+                               לקבלת החזר נסיעות ואובדן ימי עבודה בתקופת השהייה, יש לפנות למחלקת איבה בסניף הקרוב (ניתן לשלוח מסמכים דרך האתר).
+                           </p>
+                           <a 
+                             href="https://www.btl.gov.il/Tofasim/Tofasim/t2513.pdf" 
+                             target="_blank"
+                             className="inline-flex items-center gap-2 text-xs font-bold bg-white text-[#005A8D] border border-[#005A8D] px-3 py-2 rounded hover:bg-blue-50 transition-colors"
+                           >
+                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
+                               <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+                             </svg>
+                             טופס החזר נסיעות (דוגמה)
+                           </a>
+                       </div>
+                   </div>
                 </div>
             </div>
 
